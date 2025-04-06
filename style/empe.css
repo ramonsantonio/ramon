@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 778px) {
+
+    body {
+        margin: 0%;
+    }
+   
+    .cabeçalho {
+      display: block;
+    }
+
+    .section-primario {
+        display: block;
+        flex-direction: column-reverse;
+    }
+
+    .section-segunda {
+        display: block;
+    }
+
+    .section-quinto {
+        display: block;
+        
+    }
+
+    .quinto-google-img {
+        padding-top: 60px;
+    }
+
+    .quinto-tiktok-img {
+        padding-top: 60px;
+    }
+}   
+
+

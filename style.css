@@ -1,0 +1,272 @@
+@counter-style "UT-8";
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 50px;
+  
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.cabeçalho img {
+    height: 350px;
+    
+}
+
+.container{
+    gap: 0px;
+}
+
+.container-h1 {
+    color: yellow;
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+.container-ul {
+    color: white;
+    padding-bottom: 5%;
+    padding-left: 15px;
+    
+}
+
+.container-botao {
+    width: 170px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    padding: 0%;
+    border: 0px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
+}
+
+.section-primario {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.primario-img {
+    width:  350px;
+    padding-left: 80px;
+}
+
+.primario {
+    padding-left: 70px;
+}
+
+.primario-h2 {
+    color: black;
+    padding-bottom: 10px;
+}
+
+.primario-p {
+    padding-bottom: 10px;
+}
+
+.primario-ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.primario-botao {
+    width: 170px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    padding: 0%;
+    border: 0px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
+}
+
+
+
+.section-segunda {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-left: 70px;
+}
+
+.segunda-h2 {
+    color: black;
+    padding-bottom: 10px;
+}
+
+.segunda-p {
+    padding-bottom: 10px;
+}
+
+.segunda-ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.segunda-botao {
+    width: 170px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    padding: 0%;
+    border: 0px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
+}
+
+.segunda-img {
+    width: 350px;
+}
+
+.section-terceiro {
+    background-color: black;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.terceiro-h2 {
+    color: white;
+    padding-bottom: 40px;
+}
+
+.terceiro-p {
+    color: white;
+    padding-bottom: 30px;
+}
+
+
+.terceiro-botao {
+    width: 270px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    padding: 0%;
+    border: 0px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
+}
+
+.section-quarto {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.quarto-h2 {
+    padding-bottom: 20px;
+}
+
+.section-quinto {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quinto-meta {
+    color: black;
+    text-align: center;
+}
+
+.quinto-meta-img {
+    width: 130px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.quinto-meta-h3 {
+    color: black;
+    text-align: center;
+}
+
+.quinto-meta-p {
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.quinto-google {
+    color: black;
+    text-align: center;
+}
+
+.quinto-google-img {
+    width: 100px;
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 20px;
+}
+
+.quinto-google.h3 {
+    color: black;
+    text-align: center;
+}
+
+.quinto-google-p {
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.quinto-tiktok {
+    color: black;
+    text-align: center;
+}
+
+.quinto-tiktok-img {
+    width: 100px;
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 10px;
+}
+
+.quinto-tiktok-h3 {
+    color: black;
+}
+
+.quinto-tiktok-p {
+    color: black;
+    padding-top: 5%;
+}
+
+.section-sexta {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section-sexta-botao {
+    width: 270px;
+    height: 40px; 
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    padding: 0%;
+    border: 0px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
