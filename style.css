@@ -13,36 +13,34 @@ body{
 
 header {
     background-color: black;
-    padding: 50px;
-  
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .cabeçalho {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .cabeçalho img {
-    height: 350px;
+    width: 350px;
+}
+
+.container {
+    text-align: left;
     
 }
 
-.container{
-    gap: 0px;
-}
 
 .container-h1 {
     color: yellow;
-    width: 400px;
     padding-bottom: 10px;
 }
 
 .container-ul {
     color: white;
     padding-bottom: 5%;
-    padding-left: 15px;
-    
 }
 
 .container-botao {
@@ -60,6 +58,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .primario-img {
@@ -103,6 +103,10 @@ header {
     align-items: center;
     justify-content: space-evenly;
     padding-top: 80px;
+   
+}
+
+.segunda {
     padding-left: 70px;
 }
 
@@ -133,6 +137,7 @@ header {
 
 .segunda-img {
     width: 350px;
+    padding-left: 80px;
 }
 
 .section-terceiro {

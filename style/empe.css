@@ -3,11 +3,25 @@
 @media screen and (max-width: 778px) {
 
     body {
-        margin: 0%;
+        margin: 0px;
+
+    }
+
+    header  {
+        text-align: center;
     }
    
     .cabeçalho {
       display: block;
+      
+    }
+
+    .container {
+        padding-left: 20%;
+    }
+
+    .cabeçalho > .cabeçalho-img {
+        background-position: center;
     }
 
     .section-primario {
@@ -15,8 +29,17 @@
         flex-direction: column-reverse;
     }
 
+    .primario-img {
+        padding-top: 50px;
+    }
+
     .section-segunda {
         display: block;
+    }
+   
+    .segunda-img {
+        padding-top: 50px; 
+        padding-bottom: 50px;  
     }
 
     .section-quinto {
