@@ -191,7 +191,7 @@ header {
 
 .section-quinto {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
