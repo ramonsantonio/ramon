@@ -7,6 +7,11 @@
     padding: 0%;
 }
 
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -153,6 +158,7 @@ header {
 }
 
 .terceiro-p {
+    margin: 30px;
     color: white;
     padding-bottom: 30px;
 }
@@ -175,7 +181,12 @@ header {
 }
 
 .quarto-h2 {
+    margin: 20px;
     padding-bottom: 20px;
+}
+
+.quarto-p {
+    margin: 20px;
 }
 
 .section-quinto {
@@ -198,6 +209,7 @@ header {
 }
 
 .quinto-meta-h3 {
+    
     color: black;
     text-align: center;
 }
@@ -267,6 +279,29 @@ header {
     border: 0px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
 
+}
+
+.details {
+    margin: 20vh;
+}
+
+.details > h2 {
+    padding-bottom: 20px;
+}
+
+summary {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+details > p {
+    padding-bottom: 20px;
+    -webkit-padding-start: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 footer {
