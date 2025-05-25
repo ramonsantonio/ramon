@@ -21,19 +21,21 @@ header {
     padding-bottom: 50px;
 }
 
-.cabeçalho {
+.flex {
+    display: flex;
+}
+
+/* Cabeçalho */
+
+.cabeçalho .flex{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 100px;
 }
 
 .cabeçalho img {
     width: 350px;
-}
-
-.container {
-    text-align: left;
-    
 }
 
 
@@ -58,21 +60,21 @@ header {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
 }
 
+/* Primario */
+
 .section-primario {
-    display: flex;
+    padding: 40px 4%;
+}
+
+.section-primario .flex{
     align-items: center;
-    justify-content: space-evenly;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    justify-content: space-between;
+    margin: 100px;
 }
 
 .primario-img {
     width:  350px;
-    padding-left: 80px;
-}
-
-.primario {
-    padding-left: 70px;
+ 
 }
 
 .primario-h2 {
@@ -100,18 +102,16 @@ header {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
 }
 
-
+/* Segunda */
 
 .section-segunda {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top: 80px;
-   
+    padding: 40px 4%;
 }
 
-.segunda {
-    padding-left: 70px;
+.section-segunda .flex {
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
 }
 
 .segunda-h2 {
@@ -141,8 +141,10 @@ header {
 
 .segunda-img {
     width: 350px;
-    padding-left: 80px;
+   
 }
+
+/* Terceiro */
 
 .section-terceiro {
     background-color: black;
@@ -174,6 +176,8 @@ header {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
 }
 
+/* Quarto */
+
 .section-quarto {
     text-align: center;
     padding-top: 50px;
@@ -187,6 +191,8 @@ header {
 .quarto-p {
     margin: 20px;
 }
+
+/* Quinto */
 
 .section-quinto {
     display: flex;
@@ -263,6 +269,8 @@ header {
     padding-top: 5%;
 }
 
+/* Sexto */
+
 .section-sexta {
     text-align: center;
     padding-bottom: 50px;
@@ -279,6 +287,8 @@ header {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.247);
 
 }
+
+/* details */
 
 .details {
     margin: 20vh;

@@ -2,50 +2,40 @@
 
 @media screen and (max-width: 778px) {
 
-    html {
-      
-        height: 100vh;
+    .cabeçalho .flex{
+        flex-direction: column;
+        margin: 0px;
     }
-
-   
-    header  {
-        text-align: center;
-    }
-   
-    .cabeçalho {
-      display: block;
-      
-    }
-
-    .container {
-        padding-left: 20%;
-    }
-
-    .cabeçalho > .cabeçalho-img {
-        background-position: center;
-    }
-
-    .section-primario {
-        display: block;
-        flex-direction: column-reverse;
+    
+    .section-primario .flex {
+        flex-direction: column;
+        margin: 0px;
     }
 
     .primario-img {
         padding-top: 50px;
     }
 
-    .section-segunda {
-        display: block;
+    .section-segunda .flex {
+        flex-direction: column;
+        margin: 0px;
     }
-   
+
     .segunda-img {
         padding-top: 50px; 
-        padding-bottom: 50px;  
+        padding-bottom: 10px;  
     }
 
     .section-quinto {
         display: block;
-        
+    }
+
+    .section-quarto {
+        padding-top: 5px;
+    }
+
+    .section-quinto {
+        padding-top: 10px;
     }
 
     .quinto-google-img {
@@ -54,6 +44,10 @@
 
     .quinto-tiktok-img {
         padding-top: 60px;
+    }
+
+    .details {
+        margin: 30px;
     }
 }   
 
